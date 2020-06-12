@@ -7,3 +7,8 @@
     border-radius: 1em;
 
 }
+
+.animacja_tekstu {
+    animation: zoomIn;
+    animation-duration: 0.5s;
+}

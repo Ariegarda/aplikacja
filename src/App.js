@@ -9,7 +9,7 @@ import {
 import Homme from './components/Home'
 import Abbout from './components/About'
 import Ssearch from './components/Search'
-
+import 'animate.css'
 
 export default function BasicExample() {
   return (

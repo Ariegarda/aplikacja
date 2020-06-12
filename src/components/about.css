@@ -7,3 +7,13 @@
     border-radius: 1em;
 
 }
+
+.aaa {
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+.animacja_tekstu {
+    animation: zoomIn;
+    animation-duration: 0.5s;
+}

@@ -28,13 +28,16 @@ handleDateChange = (e) => {
 
 
         return(
+            <div className="animate__animated animate__fadeIn">
             <div id="search">
+            <div className="animacja_tekstu">
              <input  onChange={this.handleDateChange} type="text" ref="number"/> 
         <p>Odpowiedź: {this.state.text} </p>
         <Button variant="contained" color="primary">
       Hello World
     </Button>
-    
+    </div>
+            </div>
             </div>
         )
     }
