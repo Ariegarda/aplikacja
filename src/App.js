@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  NavLink
 } from "react-router-dom";
 import Homme from './components/Home'
 import Abbout from './components/About'
@@ -18,13 +18,13 @@ export default function BasicExample() {
          <div id="tytul"><h1>Moja Apka</h1></div>
         <ul id="navi">
           <li>
-            <Link to="/" className="menu"><p>Home</p></Link>
+            <NavLink exact to="/" className="menu" activeClassName="menu-active"><p>Home</p></NavLink>
           </li>
           <li>
-            <Link to="/about" className="menu"><p>Youtube</p></Link>
+            <NavLink exact to="/about" className="menu" activeClassName="menu-active"><p>Youtube</p></NavLink>
           </li>
           <li>
-            <Link to="/dashboard" className="menu"><p>Szukaj</p></Link>
+            <NavLink exact to="/dashboard" className="menu" activeClassName="menu-active"><p>Szukaj</p></NavLink>
           </li>
         </ul>
         </div>
