@@ -1,0 +1,14 @@
+#photo {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 1em;
+}
+#text {
+    margin-left: 20px;
+}

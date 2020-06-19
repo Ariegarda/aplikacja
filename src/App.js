@@ -24,7 +24,7 @@ export default function BasicExample() {
             <NavLink exact to="/about" className="menu" activeClassName="menu-active"><p>Youtube</p></NavLink>
           </li>
           <li>
-            <NavLink exact to="/dashboard" className="menu" activeClassName="menu-active"><p>Szukaj</p></NavLink>
+            <NavLink exact to="/dashboard" className="menu" activeClassName="menu-active"><p>Zdjęcie Dnia</p></NavLink>
           </li>
         </ul>
         </div>

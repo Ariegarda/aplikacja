@@ -22,6 +22,9 @@ background-color: aliceblue;
 border-radius: 1em;
 }
 
+@media (max-width: 1500px) {
+    div#root {width: 100vw;}
+}
 
 
 
